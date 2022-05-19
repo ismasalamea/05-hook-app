@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Messaje } from './Messaje';
+import { Message } from './Message';
 import './effects.css'
 
 
@@ -63,7 +63,7 @@ const handleInputChange = ({ target }) => {
                 />
             </div>
 
-        { (name === '123') && <Messaje /> }
+        { (name === '123') && <Message /> }
 
       </>
     

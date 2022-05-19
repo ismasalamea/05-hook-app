@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 
-export const Messaje = () => {
+export const Message = () => {
     
     const [coords, setCoords] = useState({x:0,y:0})
     const {x,y} = coords;
